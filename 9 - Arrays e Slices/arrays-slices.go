@@ -34,4 +34,16 @@ func main() {
 	array2[1] = "POS ALTERADA"
 	fmt.Println(slice2)
 
+	// Arrays Internos
+	fmt.Println("ARRAYS INTERNOS")
+	// MAKE FAZ UMA ARRAY INTERNO PARA O SLICE
+	slice3 := make([]float32, 10, 15)
+	fmt.Println(slice3)
+	// TAMANHO
+	fmt.Println(len(slice3))
+	// CAPACIDADE
+	fmt.Println(cap(slice3))
+	// Quando um slice chega ao limite em fez de lançar um erro
+	// Ele dobra o tamnho do slice, evitando erro de fim do array
+
 }
