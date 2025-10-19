@@ -19,7 +19,7 @@ func main() {
 	// Criando um struct ele começa com valores zero caso não instanciados
 	var usuario1 usuario
 	fmt.Println("user com valor zero ", usuario1)
-	// Atribuindo valores ao struct
+	// Atribuindo valores ao struc*t
 	usuario1.nome = "Italo"
 	usuario1.idade = 31
 	fmt.Println(usuario1)
